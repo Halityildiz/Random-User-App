@@ -43,7 +43,7 @@ function App() {
   console.log(card);
 
   const handleClick = () => {
-    cardData();
+    window.location.reload(true);
   };
 
   return (
